@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>PHP Application</title>
+	<title>psdSaude</title>
 	<link href="css/site.css" rel="stylesheet">
 </head>
 
