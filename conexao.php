@@ -1,8 +1,12 @@
-<?php
-$link = mysql_connect('127.0.0.1:56100', 'azure', '6#vWHD_$');
-if (!$link) {
-    die('Erro ao conectar ao banco: ' . mysql_error());
+<?
+$servidor = '127.0.0.1:56100';
+$banco = 'psdsaude';
+$usuario = 'azure';
+$senha = '6#vWHD_$';
+$link = mysql_connect($servidor, $usuario, $senha);
+$db = mysql_select_db($banco,$link);
+if(!$link)
+{
+    echo "erro ao conectar ao banco de dados!";exit();
 }
-echo 'Conectado com sucesso';
-mysql_close($link);
 ?>
