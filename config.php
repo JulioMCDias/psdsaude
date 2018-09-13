@@ -3,7 +3,7 @@
             global $pdo;  
             try 
             {
-              $pdo = new PDO("mysql:dbname=psdsaude;host=127.0.0.1;charset=utf8","azure", "6#vWHD_$");
+              $pdo = new PDO("mysql:dbname=psdsaude;host=127.0.0.1:56100;charset=utf8","azure", "6#vWHD_$");
             } catch (PDOException $e) 
             {
               echo "FALHA NA CONEXÃO: ".$e->getMessage();
