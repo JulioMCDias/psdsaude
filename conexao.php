@@ -5,7 +5,7 @@ $database = "psdsaude";
 $username = "azure";
 $password = "6#vWHD_$";
 // Create connection
-$conn = mysqli_connect($servername, $username, $password, $database);
+$conn = mysql_connect($servername, $username, $password, $database);
 // Check connection
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
