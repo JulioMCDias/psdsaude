@@ -1,4 +1,4 @@
-<?php
+<?php 
 //Database=localdb;Data Source=127.0.0.1;User Id=azure;Password=6#vWHD_$;Port=56100
 $servername = "127.0.0.1";
 $database = "psdsaude";
