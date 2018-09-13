@@ -8,7 +8,7 @@ $password = "6#vWHD_$";
 $conn = mysql_connect($servername, $username, $password);// $database);
 // Check connection
 if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
+    die("Connection failed: " . mysql_connect_error());
 }
 echo "Connected successfully";
 mysqli_close($conn);
