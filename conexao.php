@@ -11,5 +11,5 @@ if (!$conn) {
     die("Connection failed: " . mysql_connect_error());
 }
 echo "Connected successfully";
-mysqli_close($conn);
+mysql_close($conn);
 ?>
