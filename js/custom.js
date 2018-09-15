@@ -1,4 +1,3 @@
-
 (function($) {
     // 'use strict';
 
@@ -163,6 +162,51 @@
         $('.portfolio-item:hidden').slice(0, 9).addClass('visible');
     });
 
-
-
 })(jQuery);
+
+
+// jQuery Mask Functions //
+
+// CEP
+var options =  {
+  onKeyPress: function(cep, e, field, options) {
+    var masks = ['00000-000'];
+    var mask = (cep.length>7) ? masks[1] : masks[0];
+    $('#cep').mask(mask, options);
+}};
+$('#cep').mask('00000-000', options);
+
+
+// Telefone
+var options =  {
+  onKeyPress: function(telefone, e, field, options) {
+    var masks = ['(00)00000-0000'];
+    var mask = (telefone.length>11) ? masks[1] : masks[0];
+    $('#telefone').mask(mask, options);
+}};
+$('#telefone').mask('(00)00000-0000', options);
+
+// --------------------- //
+
+
+// Função para Invocar a Modal //
+$(function(){
+    $('.modal_ajax').on('click', function(e){
+        e.preventDefault();
+
+        $('.modal-body').html('Carregando...');
+        $('#myModal').modal();
+        $('.modal-dialog').draggable();
+
+        var link = $(this).attr('href');
+
+        $.ajax({
+            url:link,
+            type:'GET',
+            success:function(html){
+                $('.modal-body').html(html);
+            }
+        });
+    });
+});
+// --------------------------- //
