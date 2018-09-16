@@ -1,6 +1,6 @@
-<?php require 'config.php'; ?>
 <!DOCTYPE html>
 <html lang="pt-br">
+<?php require 'config.php'; ?>
 <?php require 'pages/header.php'; ?>
 <body>
     <header class="site-header">
