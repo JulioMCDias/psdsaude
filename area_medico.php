@@ -43,7 +43,7 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Cadastro de Pacientes</h5>
                                             <p class="card-text">Adicionar novos pacientes e/ou gerenciar pacientes já existentes.</p>
-                                            <a href="#" class="button gradient-bg">Acessar</a>
+                                            <a href="pacientes.php" class="button gradient-bg">Acessar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@
                                       <div class="card-body">
                                             <h5 class="card-title">Cadastro de Vacinas</h5>
                                             <p class="card-text">Adicionar novas vacinas e/ou gerenciar vacinas já existentes.</p>
-                                            <a href="#" class="button gradient-bg">Acessar</a>
+                                            <a href="vacinas.php" class="button gradient-bg">Acessar</a>
                                         </div>
                                     </div>
                                 </div>

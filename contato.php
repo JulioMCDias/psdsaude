@@ -114,7 +114,7 @@ require 'classes/msgContato.class.php';
         <div class="row">
             <div class="col-12">
                 <div class="contact-page-map">
-                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=university of san francisco&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913.6638622301105!2d-46.712190516312624!3d-23.652507234961522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce51aaf11432ad%3A0x4578b756c7a1a2e7!2sUniversidade+Nove+de+Julho%2C+Unidade+Santo+Amaro!5e0!3m2!1spt-BR!2sbr!4v1537123622548" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 </div><!-- map -->
             </div>
         </div>

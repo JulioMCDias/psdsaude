@@ -27,30 +27,29 @@
 <body class="text-center">
 
     <form class="form-signin" method="POST">
-      	<?php 
-          require 'classes/usuarios.class.php';
-          $u = new Usuarios();
-          
-          if (isset($_POST['email']) && !empty($_POST['email'])) {        
-              $email = addslashes($_POST['email']);
-              $senha = $_POST['senha'];
+      <?php 
+  			require 'classes/usuarios.class.php';
+  		 	$u = new Usuarios();
+  		 	
+  		 	if (isset($_POST['email']) && !empty($_POST['email'])) {		 	 	
+  		 	 	$email = addslashes($_POST['email']);
+  		 	 	$senha = $_POST['senha'];
 
-            if ($u->login($email, $senha)) {
-              ?>
-              <script type="text/javascript">
-                window.location.href="./";
-              </script>
-              <?php
-            } 
-            else { 
-              ?>
-                <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                  Usuário e/ou senha errados.
-                </div>
-              <?php 
-            }
-          } 
-        ?>
+  		 	 	if ($u->login($email, $senha)) {
+  		 	 		?>
+  		 	 		<script type="text/javascript">
+  		 	 			window.location.href="./";
+  		 	 		</script>
+  		 	 		<?php
+  		 	 	} else { 
+  		 	 		?>
+  			 	 		<div class="alert alert-danger alert-dismissible fade show" role="alert">
+  			 	 			Usuário e/ou senha errados.
+  			 	 		</div>
+  		 	 		<?php 
+  		 	 	}
+  		 	} 
+		  ?>
       <img class="mb-4" src="images/logo_login.png" width="160" height="120">
       <h1 class="h3 mb-3 font-weight-normal">Efetuar Login</h1>
       
@@ -61,7 +60,7 @@
       <input type="password" id="senha" name="senha" class="form-control" placeholder="********" required>
       
       <div class="checkbox mb-3">
-        <label>         
+        <label>          
         </label>
       </div>
 

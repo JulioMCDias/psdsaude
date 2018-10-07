@@ -10,7 +10,7 @@ class Usuarios{
 
         if ($sql->rowCount() > 0) {
             $dado = $sql->fetch();
-            $_SESSION['login'] = $dado['id'];            
+            $_SESSION['login'] = $dado['id'];   
             return true;
         } else {
             return false;

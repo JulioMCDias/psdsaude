@@ -13,7 +13,7 @@
                             <div class="row h-100">
                                 <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-start">
                                     <header class="entry-header">
-                                        <h1>Os Melhores <br>Serviços de Vacinação</h1>
+                                        <h1>Os Melhores Serviços de Vacinação</h1>
                                     </header><!-- .entry-header -->
 
                                     <div class="entry-content mt-4">
@@ -35,7 +35,7 @@
                             <div class="row h-100">
                                 <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-start">
                                     <header class="entry-header">
-                                        <h1>Vacinação <br>Domiciliar</h1>
+                                        <h1>Vacinação Domiciliar</h1>
                                     </header><!-- .entry-header -->
 
                                     <div class="entry-content mt-4">
@@ -57,7 +57,7 @@
                             <div class="row h-100">
                                 <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-start">
                                     <header class="entry-header">
-                                        <h1>Proteja-se <br>da Gripe</h1>
+                                        <h1>Proteja-se da Gripe</h1>
                                     </header><!-- .entry-header -->
 
                                     <div class="entry-content mt-4">
@@ -90,14 +90,25 @@
                         <a href="carteira_acesso.php" class="button gradient-bg">Acessar</a>
                     </div>
                 </div>
-
-                <div class="col-12 col-md-6 col-lg-5 mt-5 mt-lg-0">
-                    <div class="opening-hours">
-                        <h2 class="d-flex align-items-center">Faça um Agendamento</h2>
-                        <p>Agende sua vacinação em casa: escolha qual a vacina, dia, horário e forma de pagamento.</p>
-                        <a href="vacinacao.php" class="button dark">Agende</a>                     
+                
+                <?php if($info_tipo['tipo'] == 'paciente' || $info_tipo['tipo'] == ''): ?>
+                    <div class="col-12 col-md-6 col-lg-5 mt-5 mt-lg-0">
+                        <div class="opening-hours">
+                            <h2 class="d-flex align-items-center">Faça um Agendamento</h2>
+                            <p>Agende sua vacinação em casa: escolha qual a vacina, dia, horário e forma de pagamento.</p>
+                            <a href="vacinacao.php" class="button dark">Agende</a>                     
+                        </div>
                     </div>
-                </div>
+                <?php else: ?>
+                    <div class="col-12 col-md-6 col-lg-5 mt-5 mt-lg-0">
+                        <div class="opening-hours">
+                            <h2 class="d-flex align-items-center">Gerenciamento de Pacientes</h2>
+                            <p>Gerenciamento de Paciente, Cadastro de Vacinas e outros.</p>
+                            <a href="area_medico.php" class="button dark">Acessar</a>                     
+                        </div>
+                        </div>
+                <?php endif; ?> 
+
                 <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
                     <div class="emergency-box">
                         <h2 class="d-flex align-items-center">Pacientes Alérgicos</h2>

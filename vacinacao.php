@@ -37,7 +37,7 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Vacinação Domiciliar</h5>
                                             <p class="card-text">O atendimento domiciliar é mais um diferencial que a PSDSaúde oferece, proporcionando comodidade e conforto aos seus clientes. Contamos com uma equipe técnica qualificada e treinada especialmente para transportar e aplicar vacinas com segurança em domicílio.</p>
-                                            <a href="#" class="button gradient-bg">Agendar</a>
+                                            <a href="vacinacao_domiciliar.php" class="button gradient-bg">Agendar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -47,7 +47,7 @@
                                       <div class="card-body">
                                             <h5 class="card-title">Vacinação Empresarial</h5>
                                             <p class="card-text">A PSDSaúde desenvolveu um programa especial de vacinação que atende especificamente as necessidades dos funcionários de sua organização, ou seja, um programa customizado de vacinação. Buscamos sempre economia para a empresa, comodidade para os funcionários e melhoria na qualidade de vida no ambiente de trabalho!</p>
-                                            <a href="#" class="button gradient-bg">Agendar</a>
+                                            <a href="vacinacao_empresarial.php" class="button gradient-bg">Agendar</a>
                                         </div>
                                     </div>
                                 </div>
