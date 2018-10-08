@@ -1,12 +1,13 @@
 <?php 
-session_start();
-
-	global $pdo;	
-	
-	try {
-		$pdo = new PDO("mysql:dbname=psdsaude;host=localhost;charset=utf8","root", "");
-	} catch (PDOException $e) {
-		echo "FALHA NA CONEXÃO: ".$e->getMessage();
-		exit;
-	}
+     session_start();
+            global $pdo;  
+            try 
+            {
+              $pdo = new PDO("mysql:dbname=psdsaude;host=127.0.0.1:56100;charset=utf8","azure", "6#vWHD_$");
+              echo "CONEXÃO BEM SUCEDIDA: ".$e->getMessage();
+            } catch (PDOException $e) 
+            {
+              echo "FALHA NA CONEXÃO: ".$e->getMessage();
+              exit;
+            }
 ?>
