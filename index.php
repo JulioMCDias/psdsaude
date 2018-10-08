@@ -87,7 +87,7 @@
                     <div class="opening-hours">
                         <h2 class="d-flex align-items-center">Carteira Online</h2>
                         <p>Verifique se sua carteira de vacinação está atualizada!</p>
-                        <a href="carteira_acesso.php" class="button gradient-bg">Acessar</a>
+                       <a href="#" class="button gradient-bg">Acessar</a>
                     </div>
                 </div>
                 
