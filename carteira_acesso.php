@@ -30,7 +30,7 @@
                     <div class="row d-flex justify-content-center align-items-center">
                         <div class="row">
                                                     
-                            <form action="carteira.php" method="POST">
+                            <form action="#" method="POST">
                             <div class="card-deck d-flex justify-content-center align-items-center">
                                 <div class="card text-center">
                                     <div class="card-header">
