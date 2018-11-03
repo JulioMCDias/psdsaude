@@ -5,11 +5,19 @@
 <body class="single-page">
     <header class="site-header">
         <?php require 'pages/menu.php'; ?>        
+        
         <?php if (empty($_SESSION['login'])): ?>
             <script> window.location.href="login.php"; </script>
         <?php exit; ?>
+
         <?php elseif($info_tipo['tipo'] == 'paciente'): ?>
             <script> window.location.href="index.php"; </script>
+
+        <?php elseif($info_tipo['tipo'] == 'atendente'): ?>
+            <script> window.location.href="area_atendente.php"; </script>
+
+        <?php else: ?>
+            
         <?php endif; ?>
         <div class="container">
             <div class="row">
@@ -26,7 +34,7 @@
             </div>
         </div>
 
-        <img class="header-img" src="images/elements-bg.png" alt="">
+        <img class="header-img" src="images/medical-bg.png" alt="">
     </header><!-- .site-header -->
     
     <div class="quality-services">
@@ -38,21 +46,11 @@
                         <div class="row">
                                                     
                             <div class="card-deck">
-                                <div class="col-sm-6">
+                                <div class="col-sm-12">
                                     <div class="card text-center bg-light">
                                         <div class="card-body">
-                                            <h5 class="card-title">Cadastro de Pacientes</h5>
-                                            <p class="card-text">Adicionar novos pacientes e/ou gerenciar pacientes já existentes.</p>
-                                            <a href="#" class="button gradient-bg">Acessar</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-6">
-                                    <div class="card text-center bg-light">
-                                      <div class="card-body">
-                                            <h5 class="card-title">Cadastro de Vacinas</h5>
-                                            <p class="card-text">Adicionar novas vacinas e/ou gerenciar vacinas já existentes.</p>
+                                            <h5 class="card-title">Vacinas Aplicadas</h5>
+                                            <p class="card-text">Gerenciar vacinas aplicadas em pacientes.</p>
                                             <a href="#" class="button gradient-bg">Acessar</a>
                                         </div>
                                     </div>
