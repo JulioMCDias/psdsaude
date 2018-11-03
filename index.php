@@ -87,7 +87,7 @@
                     <div class="opening-hours">
                         <h2 class="d-flex align-items-center">Carteira Online</h2>
                         <p>Verifique se sua carteira de vacinação está atualizada!</p>
-                       <a href="#" class="button gradient-bg">Acessar</a>
+                        <a href="carteira_acesso.php" class="button gradient-bg">Acessar</a>
                     </div>
                 </div>
                 
@@ -102,9 +102,9 @@
                 <?php else: ?>
                     <div class="col-12 col-md-6 col-lg-5 mt-5 mt-lg-0">
                         <div class="opening-hours">
-                            <h2 class="d-flex align-items-center">Gerenciamento de Pacientes</h2>
-                            <p>Gerenciamento de Paciente, Cadastro de Vacinas e outros.</p>
-                            <a href="area_medico.php" class="button dark">Acessar</a>                     
+                            <h2 class="d-flex align-items-center">Gerenciamento de Cadastros</h2>
+                            <p>Gerenciamento de Pacientes, Cadastro de Vacinas e outros.</p>
+                            <a href="area_atendente.php" class="button dark">Acessar</a>                     
                         </div>
                         </div>
                 <?php endif; ?> 

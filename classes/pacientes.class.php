@@ -79,20 +79,5 @@ class Pacientes{
 		}
 	}
 
-	public function getInfoVacina($num_carteira){
-		global $pdo;
-		$sql = $pdo->prepare("SELECT * FROM pacientes WHERE num_carteira = :num_carteira");		
-		$sql -> bindValue(':num_carteira', $num_carteira);
-		$sql -> execute();
-
-		if ($sql->rowCount() > 0) {
-			
-			return $sql->fetch();
-
-		} else {
-			return array();
-		}
-	}
-
 }
 ?>

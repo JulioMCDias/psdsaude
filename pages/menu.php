@@ -18,6 +18,8 @@
                     
                     <?php if($info_tipo['tipo'] == 'paciente' || $info_tipo['tipo'] == ''): ?>
                         <li><a href="vacinacao.php">Vacinação</a></li>                                                
+                    <?php elseif($info_tipo['tipo'] == 'atendente'): ?>
+                        <li><a href="area_atendente.php">Área do Atendente</a></li>    
                     <?php else: ?>
                         <li><a href="area_medico.php">Área do Médico</a></li>    
                     <?php endif; ?> 
