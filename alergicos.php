@@ -98,5 +98,5 @@
         </div>
     </div>
     <?php require 'pages/footer.php'; ?>
-</body>
+</body> 
 </html>
