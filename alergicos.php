@@ -1,5 +1,5 @@
 <?php require 'config.php'; ?>
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pt-br">
 <?php require 'pages/header.php'; ?>
 <body class="single-page">
