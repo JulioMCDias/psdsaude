@@ -209,7 +209,7 @@ $(function(){
         });
 
         $('#myModal').on('shown.bs.modal', function(event) {
-        $('#myModal').focus();
+        $('#nome_paciente').focus();
 })
 
 
