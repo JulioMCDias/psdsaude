@@ -61,7 +61,7 @@
                                     foreach ($lista as $item):
                                 ?>      
                                     <tr>                                        
-                                        <td><?php echo $item['nome_paciente'].focus(); ?></td>
+                                        <td><?php echo $item['nome_paciente']; ?></td>
                                         <td><?php echo $item['idade']; ?></td>                                        
                                         <td><?php echo $item['num_carteira']; ?></td>
                                         <td><?php echo $item['data_nasc']; ?></td>
