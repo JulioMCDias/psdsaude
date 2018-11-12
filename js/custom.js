@@ -207,6 +207,12 @@ $(function(){
                 $('.modal-body').html(html);
             }
         });
+
+        $('#myModal').on('shown.bs.modal', function(event) {
+        $('#myModal').focus();
+})
+
+
     });
 });
 // --------------------------- //
