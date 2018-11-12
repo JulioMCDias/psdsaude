@@ -1,0 +1,10 @@
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\SeleniumTestAreaAtendimento\SeleniumTestAreaAtendimento\bin\Debug\SeleniumTestAreaAtendimento.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\SeleniumTestAreaAtendimento\SeleniumTestAreaAtendimento\bin\Debug\SeleniumTestAreaAtendimento.pdb
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\SeleniumTestAreaAtendimento\SeleniumTestAreaAtendimento\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\SeleniumTestAreaAtendimento\SeleniumTestAreaAtendimento\bin\Debug\WebDriver.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\SeleniumTestAreaAtendimento\SeleniumTestAreaAtendimento\bin\Debug\WebDriver.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\SeleniumTestAreaAtendimento\SeleniumTestAreaAtendimento\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\SeleniumTestAreaAtendimento\SeleniumTestAreaAtendimento\bin\Debug\pt-BR\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\SeleniumTestAreaAtendimento\SeleniumTestAreaAtendimento\obj\Debug\SeleniumTestAreaAtendimento.csprojResolveAssemblyReference.cache
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\SeleniumTestAreaAtendimento\SeleniumTestAreaAtendimento\obj\Debug\SeleniumTestAreaAtendimento.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\SeleniumTestAreaAtendimento\SeleniumTestAreaAtendimento\obj\Debug\SeleniumTestAreaAtendimento.pdb
