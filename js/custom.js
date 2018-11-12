@@ -208,11 +208,6 @@ $(function(){
             }
         });
 
-        $('#myModal').on('shown.bs.modal', function(event) {
-        $('#nome_paciente').focus();
-})
-
-
     });
 });
 // --------------------------- //
