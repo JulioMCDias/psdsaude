@@ -83,6 +83,10 @@ namespace SeleniumTestAreaAtendente
             driver.FindElement(By.XPath("(.//*[normalize-space(text()) and normalize-space(.)='Pacientes'])[2]/following::strong[1]")).Click();
             driver.FindElement(By.XPath("(.//*[normalize-space(text()) and normalize-space(.)='Data de Nascimento:'])[1]/following::input[2]")).Click();
             driver.FindElement(By.Name("nome_paciente")).Click();
+            driver.FindElement(By.Name("nome_paciente")).Click();
+            driver.FindElement(By.Name("nome_paciente")).Click();
+            driver.FindElement(By.Name("nome_paciente")).Click();
+            driver.FindElement(By.Name("nome_paciente")).Click();
             driver.FindElement(By.Name("nome_paciente")).Clear();
             driver.FindElement(By.Name("nome_paciente")).SendKeys("Francisco");
             driver.FindElement(By.Name("idade")).Click();
@@ -99,6 +103,10 @@ namespace SeleniumTestAreaAtendente
             driver.FindElement(By.LinkText("Área do Atendente")).Click();
             driver.FindElement(By.XPath("(.//*[normalize-space(text()) and normalize-space(.)='Cadastro de Vacinas'])[1]/following::a[1]")).Click();
             driver.FindElement(By.LinkText("Adicionar Vacina")).Click();
+            driver.FindElement(By.Name("nome_vacina")).Click();
+            driver.FindElement(By.Name("nome_vacina")).Click();
+            driver.FindElement(By.Name("nome_vacina")).Click();
+            driver.FindElement(By.Name("nome_vacina")).Click();
             driver.FindElement(By.Name("nome_vacina")).Click();
             driver.FindElement(By.Name("nome_vacina")).Clear();
             driver.FindElement(By.Name("nome_vacina")).SendKeys("HPV");
